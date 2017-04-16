@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 8, 2016, 8:01:48 PM
+    Author     : Hucast
+*/
+/*.card {
+    /* Add shadows to create the "card" effect */
+    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px 5px 5px 5px;
+    
+    width: 600px;
+    background-color: #EEEEEE;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+    /*border-radius: 5px 5px 0 0;*/
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.card-container {
+    padding: 2px 16px;
+    background-color: #F9F9F9;
+    /*background-color: white;*/
+    border-radius: 0px 0px 5px 5px;
+}
+.card-header{
+    padding: 2px 16px;
+    /*background-color: #EEEEEE;*/
+    background-color: #F9F9F9;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+div.center {
+  align: center ! important;
+}
+table.center {
+    margin: 0 auto;
+}
+ td.right{
+  padding-left: 150px;
+}
